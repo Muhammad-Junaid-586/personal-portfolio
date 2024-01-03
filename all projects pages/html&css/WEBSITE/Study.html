@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ishaqium Shoping center</title>
+	<link rel="stylesheet" type="text/css" href="study.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>	
+	<link rel="icon" type="images/x-icon" href="images/icon.png">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+
+	<!-- Start of Header -->
+
+	<div class="header">
+		<div class="logo"><a href="Home.html">ISHAQIUM ONLINE<br>SHOPPING CENTER</a></div>
+		<div class="searchbar"><input type="search" name="search" placeholder="Search here for product brands and more"></div>
+		<div class="searchbtn"><input type="button"  name="btn" value="search"> </div>
+		<div class="login"> <input type="button" name="login" value="Log In"></div>
+		<div class="cart"><a href="#">  <i class="fa fa-cart-arrow-down"> </i>  Cart </a></div>
+	</div>
+
+<!-- end of header -->
+
+<!-- start of navigation
+ -->
+  <nav>
+          <ul>
+             <li><a href="Home.html" id="home">Home</a> </li>
+             <li><a href="electronics.html" id="electronics">Electronics </a></li>
+             <li><a href="Men.html" id="men">Men</a> </li>
+             <li><a href="women.html" id="women">Women</a> </li>
+             <li><a href="babies.html" id="babies">Baby/Kids</a> </li>
+             <li><a href="furniture.html" id="furnitures">Home and Furnitures</a></li>
+             <li><a href="sports.html" id="sports">Sports</a></li>
+             <li><a href="Study.html" id="Study">Study</a></li>
+             <li><a href="Offers.html" id="offers">Offers</a></li>
+             <li><a href="contact.html" id="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<!--     End of navigation
+ -->
+
+<!-- Start of slider
+ -->
+
+ 	<div class="slider">
+		<img src="images/work1.png" class="slider">
+		<img src="images/work2.png" class="slide">
+		<img src="images/work3.png" class="slide">
+		<img src="images/work4.png" class="slide">
+
+	</div>
+
+<!-- 	Slider java script
+ -->
+	<script type="text/javascript">
+	let slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+let slideInterval = setInterval(nextSlide, 3000);
+
+function nextSlide() {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+}
+</script>
+
+<!-- End of slider
+ -->
+
+<!--  Start of Selling content description
+ -->
+
+	<div class="content">
+		<div class="des">
+			<h3> School Bags</h3><hr>
+
+		</div>
+
+<!-- 		End of discription
+ -->
+
+<!--  start of selling product School Bags
+ -->
+
+		<div class="object">
+			<img src="image/bag1.jpg" class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/bag2.jpg" class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/bag3.jpg" class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/bag4.jpg" class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/bag5.jpg" class="zoom">
+			
+		</div>
+
+<!-- 		end of selling prodeuct 
+ -->
+<!-- 		start of rating
+ -->
+		
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+
+<!-- 		end of rating
+ -->
+<!-- 		start of price
+ -->
+		
+		
+		<div class="price">
+				<p class="rs">Price: <span>Rs.300/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.799/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.1499/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.1100/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.900/-</span></p>
+		</div>	
+
+<!-- 		End of price
+ -->
+
+<!--  start of details
+ -->
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.300/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.700/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.1,499/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.1,100/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.900/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+
+<!--  end of detals
+ -->
+ <!--  Start of Selling content description
+ -->
+
+
+<div class="content">
+		<div class="des">
+			<h3> NoteBooks</h3><hr>
+
+		</div>
+		<!-- 		End of discription
+ -->
+
+<!--  start of selling product 
+ -->
+	
+
+		<div class="object">
+			<img src="image/nb1.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/nb2.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/nb3.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/nb4.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/nb1.jpg"  class="zoom">
+			
+		</div>
+		<!-- 		end of selling product glooves and Halmet
+ -->
+<!-- 		start of rating
+ -->
+
+		
+
+		<div class="rating">
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<!-- 		end of rating
+ -->
+<!-- 		start of price
+ -->
+
+		
+		
+		<div class="price">
+				<p class="rs">Price: <span>Rs.2,400/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.1,800/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.2,100/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.4,120/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.3,220/-</span></p>
+		</div>		
+	</div>
+<!-- 		End of price
+ -->
+
+ <!--  start of details
+ -->
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.2,400/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.1,800/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.2,100/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.4,120/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.3,220/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+
+<!--  end of detals
+ -->
+
+
+ <!--  Start of Selling content description
+ -->
+
+
+<div class="content">
+		<div class="des">
+			<h3> Pen</h3><hr>
+
+		</div>
+		<!-- 		End of discription
+ -->
+
+<!--  start of selling product 
+ -->
+	
+
+		<div class="object">
+			<img src="image/pen1.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/pen2.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/pen3.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/pen4.jpg"  class="zoom">
+			
+		</div>
+
+		<div class="object">
+			<img src="image/pen5.jpg"  class="zoom">
+			
+		</div>
+		<!-- 		end of selling product glooves and Halmet
+ -->
+<!-- 		start of rating
+ -->
+
+		
+
+		<div class="rating">
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star"  style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+		</div>
+
+		<!-- 		end of rating
+ -->
+<!-- 		start of price
+ -->
+
+		
+		
+		<div class="price">
+				<p class="rs">Price: <span>Rs.2,400/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.1,800/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.2,100/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.4,120/-</span></p>
+		</div>
+
+		<div class="price">
+				<p class="rs">Price: <span>Rs.3,220/-</span></p>
+		</div>		
+	</div>
+<!-- 		End of price
+ -->
+
+ <!--  start of details
+ -->
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.2,400/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.1,800/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.2,100/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.4,120/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+<div class="detail"> 
+	<details>
+		<summary></summary>
+		<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="rating">
+			<i class=" fa fa-star" style="color: orange;"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			<i class=" fa fa-star"></i>
+			
+		</div>
+<p class="rs">Price: <span>Rs.3,220/-</span></p>
+<div class="_btn"><button href=home.html>Buy Now</button> <button>Add to Cart</button></div></section>
+
+	</details>
+</div>
+
+
+<!--  end of detals
+ -->
+
+
+
+
+<!-- start of footer
+ -->
+	<div class="footer">
+		<div class="ftrhead"><h4 class="ql">Quick Links</h4> <h4 class="cntct">Contacts</h4>
+		</div><hr>
+
+
+		<div class="ftr">
+
+		<div class="quicklinks">
+			<a href="#home">Home </a> 
+			<a href="#electronics">Electronics </a> 
+			<a href="#men">Men </a> 
+			<a href="#women">Women </a> 
+			<a href="#babies">Baby/Kids </a> 
+			<a href="#furnitures">Home and Furnitures </a> 
+			<a href="#sports">Sports </a> 
+			<a href="#Study">Study </a>
+			<a href="#offers">Offers </a>
+			</div>
+
+<!-- 			Start of animated footer contact part
+ -->
+			<div class="anmtion">
+			<ul class="wrapper">
+  <li class="icon facebook">
+    <span class="tooltip">Facebook</span>
+    <span><i class="fab fa-facebook-f"></i></span>
+  </li>
+  <li class="icon instagram">
+    <span class="tooltip">Instagram</span>
+    <span><i class="fab fa-instagram"></i></span>
+  </li>
+  <li class="icon youtube">
+    <span class="tooltip">YouTube</span>
+    <span><i class="fab fa-youtube"></i></span>
+  </li>
+  <li class="icon github">
+    <span class="tooltip">Github</span>
+    <span><i class="fab fa-github"></i></span>
+  </li>
+  <li class="icon twitter">
+    <span class="tooltip">Twitter</span>
+    <span><i class="fab fa-twitter"></i></span>
+  </li>
+</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- End of Footer
+ -->	 
+
+
+	  
+
+	
+
+</body>
+</html>
