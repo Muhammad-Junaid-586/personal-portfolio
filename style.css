@@ -495,19 +495,20 @@ h3.heading{
         text-align: center;
         margin-top: 2rem;
     }
+    .container{
+        flex-direction: column;
+    }
     
 }
 
 /* ==================================================== */
 .container{
-    /* background: #e3edf7; */
-
-    /* height: 100vh; */
+   
     margin: 40px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     width: 100%;
 }
 .skill{
@@ -617,3 +618,10 @@ svg{
 
 
 
+/* ------------------------ */
+@media only screen and (max-width: 667px) {
+    .container {
+        flex-direction: column;
+    }
+
+}

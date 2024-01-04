@@ -1,0 +1,7 @@
+footer .follow i:hover{
+	position: relative;
+	scale: 1.9;
+	top: 30px;
+	transition: top 1s ease;
+
+}  /--this code is for scale and for move down for 30px--/
